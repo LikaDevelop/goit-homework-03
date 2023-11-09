@@ -37,8 +37,8 @@ img{
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
     padding-right: 15px;
+    padding-left: 15px;
 }
 
 .section{
@@ -52,17 +52,13 @@ img{
 .header-class{
     background: var(--WHITE, #FFF);
     border-bottom: 1px solid #e7e9fc;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
-.header-class .container{
+.header-flex{
     display: flex;
     padding-top: 25.5px;
     padding-bottom: 25.5px;
     gap: 150px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .navigation{
