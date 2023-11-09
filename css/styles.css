@@ -351,11 +351,6 @@ img{
     padding: 100px 0;
 }
 
-.footer-design{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .footer-web-logo{
     display: inline-block;
