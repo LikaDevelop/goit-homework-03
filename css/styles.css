@@ -35,9 +35,10 @@ img{
 
 .container {
     max-width: 1158px;
-    padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section {
@@ -253,12 +254,12 @@ img{
 
 .team-list-cards:first-child{
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
 }
 
 
 .team-cards{
     background-color: #FFFFFF
+    border-radius: 0px 0px 4px 4px;
 }
 
 .emploer{
