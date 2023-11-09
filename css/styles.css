@@ -35,9 +35,10 @@ img{
 
 .container{
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px 0 15px;
 }
 
 .section{
@@ -356,7 +357,7 @@ img{
     justify-content: center;
 }
 
-.logo-web-f{
+.footer-web-logo{
     display: inline-block;
     color: var(--IRIS, #4D5AE5);
     font-family: "Raleway", sans-serif;
@@ -368,7 +369,7 @@ img{
     margin-bottom: 16px;
 }
 
-.logo-studio-f{
+.footer-studio-logo{
     color: var(--CLOUD, #F4F4FD);
  }
 
