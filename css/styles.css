@@ -37,8 +37,7 @@ img{
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0 15px;
 }
 
 .section {
@@ -187,11 +186,22 @@ img{
 
 .benefits{
     background: #FFF;
+    padding: 120px 0;
 }
 
-.benefit-title-hidden{
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
 
 .benefit-list{
     display: flex;
@@ -232,6 +242,7 @@ img{
 
 .team{
     background: var(--CLOUD, #F4F4FD);
+    padding: 120px 0
 }
 
 .team-list-cards{
@@ -242,7 +253,7 @@ img{
 
 .team-list-cards:first-child{
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px
+    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -302,6 +313,9 @@ img{
 
 .portfolio{
     background: #FFF;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 
 
@@ -309,7 +323,7 @@ img{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .project-name{
@@ -357,6 +371,7 @@ img{
 .logo-studio-footer{
     color: var(--CLOUD, #F4F4FD);
     margin-bottom: 16px;
+    display: inline-block;
  }
 
 
