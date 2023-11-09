@@ -56,8 +56,6 @@ img{
 
 .header-flex{
     display: flex;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
     gap: 150px;
 }
 
