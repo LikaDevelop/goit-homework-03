@@ -13,8 +13,8 @@
 </head>
 <body>
     <!--HEADER-->
-    <header>
-        <div class="container">
+    <header class="header-class">
+        <div class="container header-flex">
         <nav class="navigation">
             <a href="./index.html" class="logo-web">Web<span class="logo-studio">Studio</span></a>
             <ul class="menu-list">
@@ -28,7 +28,8 @@
                     <a href="" class="menu-item">Contacts</a>
                 </li>
             </ul>
-            <address id="contacts" class="contacts">
+        </nav>
+        <address id="contacts" class="contacts">
                 <ul class="list-contacts">
                     <li>
                         <a href="mailto:info@devstudio.com" class="contacts-item">info@devstudio.com</a>
@@ -38,20 +39,20 @@
                     </li>
                 </ul>
             </address>
-        </nav>
         </div>
     </header>
     <main>
         <!-- SECTION HERO -->
         <section class="hero section">
-            <div class="container"></div>
+            <div class="container">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
             <button type="button" class="order-button">Order Service</button>
-        </div>
+            </div>
         </section>
         <!--SECTION BENEFITS-->
         <section class="benefits section">
             <div class="container">
+            <h2 class="benefit-title-hidden">Our benefit</h2>
             <ul class="benefit-list">
                 <li class="benefit-item">
                     <h3 class="benefit-title">Strategy</h3>
@@ -80,23 +81,31 @@
             <ul class="team-list-cards">
                 <li class="team-cards">
                     <img src="./images/mark-guerrero.jpg" alt="Mark Guerrero Product Designer" width="264" height="260">
+                    <div class="emploer">
                     <h3 class="name">Mark Guerrero</h3>
                     <p class="position">Product Designer</p>
+                    </div>
                 </li>
                 <li class="team-cards">
                     <img src="./images/tom-ford.jpg" alt="Tom Ford Frontend Developer" width="264" height="260">
+                    <div class="emploer">
                     <h3 class="name">Tom Ford</h3>
                     <p class="position">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="team-cards">
                     <img src="./images/camila-garcia.jpg" alt="Camila Garcia Marketing" width="264" height="260">
+                    <div class="emploer">
                     <h3 class="name">Camila Garcia</h3>
                     <p class="position">Marketing</p>
+                    </div>
                 </li>
                 <li class="team-cards">
                     <img src="./images/daniel-wilson.jpg" alt="Daniel Wilson UI Designer" width="264" height="260">
+                    <div class="emploer">
                     <h3 class="name">Daniel Wilson</h3>
                     <p class="position">UI Designer</p>
+                    </div>
                 </li>
             </ul>
             </div>
@@ -108,33 +117,45 @@
             <ul class="list-project">
                 <li class="portfolio-cards">
                     <img src="./images/bancking-app.jpg" alt="Banking App" width="360" height="300">
+                    <div class="naming">
                     <h3 class="project-name">Banking App</h3>
                     <p class="project-type">App</p>
+                    </div>
                 </li>
                 <li class="portfolio-cards">
                     <img src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
+                    <div class="naming">
                     <h3 class="project-name">Cashless Payment</h3>
                     <p class="project-type">Marketing</p>
+                    </div>
                 </li>
                 <li class="portfolio-cards">
                     <img src="./images/meditation-app.jpg" alt="Meditation App" width="360" height="300">
+                    <div class="naming">
                     <h3 class="project-name">Meditation App</h3>
                     <p class="project-type">App</p>
+                    </div>
                 </li>
                 <li class="portfolio-cards">
                     <img src="./images/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
+                    <div class="naming">
                     <h3 class="project-name">Taxi Service</h3>
                     <p class="project-type">Marketing</p>
+                    </div>
                 </li>
                 <li class="portfolio-cards">
                     <img src="./images/screen-illustrations.jpg" alt="Screen Illustrations" width="360" height="300">
+                    <div class="naming">
                     <h3 class="project-name">Screen Illustrations</h3>
                     <p class="project-type">Design</p>
+                    </div>
                 </li>
                 <li class="portfolio-cards">
                     <img src="./images/online-courses.jpg" alt="Online Courses" width="360" height="300">
+                    <div class="naming">
                     <h3 class="project-name">Online Courses</h3>
                     <p class="project-type">Marketing</p>
+                    </div>
                 </li>
             </ul>
             </div>
